@@ -1,5 +1,4 @@
-// ============================================
-//SolbixSniper TRADING BOT - Complete Implementation
+//Jupiter TRADING BOT - Complete Implementation
 // with Debug Logging & Professional Messages 
 // ============================================
 import { Telegraf, Markup } from 'telegraf';
@@ -1241,7 +1240,7 @@ async function showMainMenu(ctx, edit = false) {
     : `💼 *Wallet ${session.activeWalletIndex + 1}/${session.wallets.length}*\n\`${shortenAddress(wallet.publicKey)}\`\n💰 ${balance?.toFixed(4) || '?'} SOL ${solPrice ? `($${usdValue.toFixed(2)})` : ''} ${errMsg}`;
 
   const text = `
-🚀 *Welcome to Fomo Trading Bot* 🤖
+🚀 *Welcome to Jupiter trading bot
 
 I'm your Web3 execution engine.
 AI-driven. Battle-tested. Locked down.
